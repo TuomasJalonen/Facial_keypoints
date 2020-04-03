@@ -212,7 +212,7 @@ def flip_img(img, points):
     # 1. Flip the image horizontally:
     flipped_img = img[:, ::-1]
 
-    # 2. Create an empty list for the flipped points and swapped points
+    # 2. Create an empty list for the flipped points
     flipped_points = []
 
     # 3. Loop through the points list
