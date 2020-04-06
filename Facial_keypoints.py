@@ -73,7 +73,7 @@ def load_imgs_and_keypoints(dir_name='data'):
     # 1. Load csv-file into pandas dataframe
     dataframe = pd.read_csv(os.path.join(dir_name, 'gt.csv'))
 
-    # 2. Transform the dataframe into python list POINTS
+    # 2. Transform the dataframe into python list points
     points = dataframe.values.tolist()
 
     # 3. Let's create an array for images with shape (N, 100, 100, 3)
