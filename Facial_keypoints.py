@@ -96,7 +96,7 @@ def load_imgs_and_keypoints(dir_name='data'):
         height = image.shape[1]
 
         # 9. Loop through columns with step=2. The row is formed like
-        # x1 y1 x2 y2 ..., so we are looping through them as tuples
+        # x1 y1 x2 y2 ..., so we are looping through them as pairs
 
         for column in range(1, 29, 2):
 
