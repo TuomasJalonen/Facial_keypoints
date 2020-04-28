@@ -107,7 +107,7 @@ def load_imgs_and_keypoints(dir_name='data'):
             # 11. Y-coordinate is in the second column i.e. [column + 1]
             points[row][column + 1] = points[row][column + 1] / height -0.5
 
-        # 12. The image is already read saved so let's resize it now and
+        # 12. The image is already in memory so let's resize it now and
         # add it to imgs
         image = transform.resize(image, (100, 100, 3))
         imgs[row] = image
